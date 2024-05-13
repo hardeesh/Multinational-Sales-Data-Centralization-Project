@@ -61,7 +61,7 @@ MRDC/
 │   ├── correcting_dim_store_details.sql
 │   ├── correcting_dim_users.sql
 │   └── correcting_orders_table.sql
-│
+
 ├── extraction_and_cleaning/
 │   ├── card_details_cleaning.ipynb
 │   ├── data_cleaning.py
@@ -72,7 +72,7 @@ MRDC/
 │   ├── orders_table.ipynb
 │   ├── product_details.ipynb
 │   └── store_details_cleaning.ipynb
-│
+
 └── querying_the_data/
     ├── querying_the_data.ipynb
     └── querying_the_data.sql
