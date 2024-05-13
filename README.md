@@ -24,6 +24,8 @@ Once I collected the data, I collated it into a star-based schema database using
 - Ensuring the columns are of the correct type and defining primary and foreign keys for efficient querying.
 - Implementing SQL scripts to create tables and establish relationships within the database.
 
+![image](https://github.com/hardeesh/Multinational-Sales-Data-Centralization-Project/assets/156682615/68f68a99-48ef-49d5-af63-139caf58e093)
+
 ### 3. Data Analysis and Querying
 With all my sales data centralized in the database, I performed data analysis and answered business questions by querying the data using SQL. This allowed me to:
 - Extract up-to-date metrics and insights from the sales data.
