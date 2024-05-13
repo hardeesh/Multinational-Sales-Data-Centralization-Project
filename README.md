@@ -57,43 +57,43 @@ MRDC/
 
 ├── correcting_the_data/
 
-   ├── correcting_dim_card_details.sql
+|   ├── correcting_dim_card_details.sql
 
-   ├── correcting_dim_date_times.sql
+|   ├── correcting_dim_date_times.sql
 
-   ├── correcting_dim_products.sql
+|   ├── correcting_dim_products.sql
 
-   ├── correcting_dim_store_details.sql
+|   ├── correcting_dim_store_details.sql
 
-   ├── correcting_dim_users.sql
+|   ├── correcting_dim_users.sql
 
-   └── correcting_orders_table.sql
+|   └── correcting_orders_table.sql
 
 ├── extraction_and_cleaning/
 
-   ├── card_details_cleaning.ipynb
+|   ├── card_details_cleaning.ipynb
 
-   ├── data_cleaning.py
+|   ├── data_cleaning.py
 
-   ├── data_extraction.py
+|   ├── data_extraction.py
 
-   ├── database_utils.py
+|   ├── database_utils.py
 
-   ├── date_events_cleaning.ipynb
+|   ├── date_events_cleaning.ipynb
 
-   ├── legend_user_cleaning.ipynb
+|   ├── legend_user_cleaning.ipynb
 
-   ├── orders_table.ipynb
+|   ├── orders_table.ipynb
 
-   ├── product_details.ipynb
+|   ├── product_details.ipynb
 
-   └── store_details_cleaning.ipynb
+|   └── store_details_cleaning.ipynb
 
 └── querying_the_data/
 
-   ├── querying_the_data.ipynb
+|   ├── querying_the_data.ipynb
 
-   └── querying_the_data.sql
+|   └── querying_the_data.sql
 
 ## Acknowledgements
 I would like to give credit to the support received from the AiCore team for their continuous support and guidance throughout this project. Their expertise and encouragement have been invaluable in driving the success of this endeavor.
