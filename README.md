@@ -5,9 +5,18 @@ The Multinational Sales Data Centralization Project is my initiative to centrali
 
 ### 1. Data Collection
 I utilized Python to collect sales data from various sources:
-- **AWS RDS Database**: I extracted two pieces of data using SQL queries.
-- **AWS S3 Bucket**: Retrieved data stored in PDF files using the tabula-py package.
-- **External APIs**: I developed custom classes to extract data via API calls, allowing for easy input of API keys and values.
+
+AWS RDS Database: Initially, I extracted data from an AWS RDS database. This process involved executing SQL queries to retrieve two distinct datasets.
+
+AWS S3 Bucket (PDF Files): Subsequently, I accessed sales data stored in PDF files within an AWS S3 bucket. Utilizing the tabula-py package, I extracted the relevant information from these documents.
+
+External APIs: To acquire additional data, I developed custom classes to interact with external APIs. These classes facilitated the retrieval of data via API calls. Access to these APIs required the inclusion of API keys and corresponding values for authentication.
+
+AWS S3 Bucket (CSV Files): Another source of data was CSV files stored in an AWS S3 bucket. I accessed and processed these files as part of the data collection process.
+
+AWS RDS Database (Additional Data): Additionally, I retrieved supplementary data stored in a database on AWS RDS. This enriched the dataset and provided further insights into sales metrics.
+
+JSON File: Finally, I obtained data from a JSON file, serving as another valuable source for analysis and exploration.
 
 ### 2. Database Schema Design
 Once I collected the data, I collated it into a star-based schema database using PostgreSQL. This involved:
@@ -23,9 +32,7 @@ With all my sales data centralized in the database, I performed data analysis an
 To install and set up the project, follow these steps:
 
 1. Clone the repository:
-git clone https://github.com/your-username/multinational-sales-centralization.git
-
-
+```git clone https://github.com/your-username/multinational-sales-centralization.git```
 
 ## Usage
 To use the project, follow these guidelines:
@@ -46,10 +53,30 @@ To use the project, follow these guidelines:
 - Answer business questions and analyze the data to make informed, data-driven decisions.
 
 ## File Structure
+MRDC/
+├── correcting_the_data/
+│   ├── correcting_dim_card_details.sql
+│   ├── correcting_dim_date_times.sql
+│   ├── correcting_dim_products.sql
+│   ├── correcting_dim_store_details.sql
+│   ├── correcting_dim_users.sql
+│   └── correcting_orders_table.sql
+│
+├── extraction_and_cleaning/
+│   ├── card_details_cleaning.ipynb
+│   ├── data_cleaning.py
+│   ├── data_extraction.py
+│   ├── database_utils.py
+│   ├── date_events_cleaning.ipynb
+│   ├── legend_user_cleaning.ipynb
+│   ├── orders_table.ipynb
+│   ├── product_details.ipynb
+│   └── store_details_cleaning.ipynb
+│
+├── querying_the_data/
+│   ├── querying_the_data.ipynb
+│   └── querying_the_data.sql
 
 
-
-
-
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for more information.
+## Acknowledgements
+I would like to give credit to the support received from the AiCore team for their continuous support and guidance throughout this project. Their expertise and encouragement have been invaluable in driving the success of this endeavor.
