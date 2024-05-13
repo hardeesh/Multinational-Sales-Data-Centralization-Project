@@ -73,10 +73,9 @@ MRDC/
 │   ├── product_details.ipynb
 │   └── store_details_cleaning.ipynb
 │
-├── querying_the_data/
-│   ├── querying_the_data.ipynb
-│   └── querying_the_data.sql
-
+└── querying_the_data/
+    ├── querying_the_data.ipynb
+    └── querying_the_data.sql
 
 ## Acknowledgements
 I would like to give credit to the support received from the AiCore team for their continuous support and guidance throughout this project. Their expertise and encouragement have been invaluable in driving the success of this endeavor.
